@@ -6,7 +6,7 @@ Akeraye is a fullstack web application for rental services, developed using **Ne
 
 ## 🌐 Live Demo
 
-> _Add the link here once deployed, e.g.:_  
+> _ will Add the link here once deployed, e.g.:_  
 > [https://akeraye.vercel.app](https://akeraye.vercel.app)
 
 ---
