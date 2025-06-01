@@ -5,7 +5,11 @@ import Image from 'next/image';
 // Optional: Import icons if desired
 // import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
-const ImageGallery = ({ images }) => {
+interface ImageGalleryProps {
+    images: string[];
+}
+
+const ImageGallery = ({ images }: ImageGalleryProps) => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
     if (!images || !Array.isArray(images) || images.length === 0) {
