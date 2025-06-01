@@ -30,7 +30,7 @@ const ImageGallery = ({ images }: ImageGalleryProps) => {
         );
     };
 
-    const handleThumbnailClick = (index) => {
+    const handleThumbnailClick = (index: number): void => {
         setCurrentImageIndex(index);
     };
 
