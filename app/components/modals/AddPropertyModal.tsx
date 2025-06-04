@@ -176,6 +176,7 @@ const AddPropertyModal = () => {
                             <label>Price per night</label>
                             <input
                                 type="number"
+                                min={1}
                                 value={dataPrice}
                                 onChange={(e) => setDataPrice(e.target.value)}
                                 className='w-full p-4 border border-gray-600 rounded-xl'
@@ -186,6 +187,7 @@ const AddPropertyModal = () => {
                             <label>Bedrooms</label>
                             <input
                                 type="number"
+                                min={1}
                                 value={dataBedrooms}
                                 onChange={(e) => setDataBedrooms(e.target.value)}
                                 className='w-full p-4 border border-gray-600 rounded-xl'
@@ -196,6 +198,7 @@ const AddPropertyModal = () => {
                             <label>Bathrooms</label>
                             <input
                                 type="number"
+                                min={1}
                                 value={dataBathrooms}
                                 onChange={(e) => setDataBathrooms(e.target.value)}
                                 className='w-full p-4 border border-gray-600 rounded-xl'
@@ -206,6 +209,7 @@ const AddPropertyModal = () => {
                             <label>Maximum number of guests</label>
                             <input
                                 type="number"
+                                min={1}
                                 value={dataGuests}
                                 onChange={(e) => setDataGuests(e.target.value)}
                                 className='w-full p-4 border border-gray-600 rounded-xl'

@@ -51,7 +51,7 @@ const ImageGallery = ({ images }: ImageGalleryProps) => {
                     <>
                         <button
                             onClick={handlePreviousImage}
-                            className="absolute top-1/2 left-2 md:left-4 transform -translate-y-1/2 bg-black bg-opacity-40 text-white p-2 rounded-full hover:bg-opacity-60 transition duration-200 z-10"
+                            className="absolute top-1/2 left-2 md:left-4 transform -translate-y-1/2 bg-black bg-opacity-40 text-white p-2 rounded-full hover:bg-opacity-60 transition duration-200 z-5"
                             aria-label="Previous image"
                         >
                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -61,7 +61,7 @@ const ImageGallery = ({ images }: ImageGalleryProps) => {
                         </button>
                         <button
                             onClick={handleNextImage}
-                            className="absolute top-1/2 right-2 md:right-4 transform -translate-y-1/2 bg-black bg-opacity-40 text-white p-2 rounded-full hover:bg-opacity-60 transition duration-200 z-10"
+                            className="absolute top-1/2 right-2 md:right-4 transform -translate-y-1/2 bg-black bg-opacity-40 text-white p-2 rounded-full hover:bg-opacity-60 transition duration-200 z-5"
                             aria-label="Next image"
                         >
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
