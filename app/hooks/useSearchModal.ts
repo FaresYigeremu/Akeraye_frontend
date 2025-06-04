@@ -26,7 +26,7 @@ const useSearchModal = create<SearchModalStore>((set) => ({
     close: () => set({ isOpen: false }),
     setQuery: (query: SearchQuery) => set({query: query}),
     query: {
-        country: 'Ethiopia',
+        country: '',
         checkIn: undefined,
         checkOut: undefined,
         guests: 1,

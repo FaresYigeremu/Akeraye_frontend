@@ -10,6 +10,7 @@ const ethiopianCities = [
     "Shashamene",
     "Dessie",
     "Jijiga",
+    "Harar"
     // Add more cities as needed
 ];
 

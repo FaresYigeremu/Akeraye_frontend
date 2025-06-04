@@ -32,8 +32,8 @@ const Categories = () => {
                 <Image
                     src="/icn_category_beach.jpeg"
                     alt="Category - "
-                    width={20}
-                    height={20}
+                    width={50}
+                    height={50}
                 />
 
                 <span className='text-xs'>All</span>
@@ -45,8 +45,8 @@ const Categories = () => {
                 <Image
                     src="/house.png"
                     alt="Category - houses"
-                    width={20}
-                    height={20}
+                    width={50}
+                    height={50}
                 />
 
                 <span className='text-xs'>Houses</span>
@@ -58,8 +58,8 @@ const Categories = () => {
                 <Image
                     src="/villa.png"
                     alt="Category - villas"
-                    width={20}
-                    height={20}
+                    width={50}
+                    height={50}
                 />
 
                 <span className='text-xs'>Villas</span>
@@ -71,8 +71,8 @@ const Categories = () => {
                 <Image
                     src="/pension.png"
                     alt="Category - pension"
-                    width={20}
-                    height={20}
+                    width={50}
+                    height={50}
                 />
 
                 <span className='text-xs'>Pensions</span>
@@ -84,8 +84,8 @@ const Categories = () => {
                 <Image
                     src="/guest-house.png"
                     alt="Category - guest houses"
-                    width={20}
-                    height={20}
+                    width={50}
+                    height={50}
                 />
 
                 <span className='text-xs'>Guest-Houses</span>

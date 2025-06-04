@@ -24,7 +24,7 @@ function Chapa({ fname, lname, email, totalPriceFromStore }: CustomerInfo) {
     <input type="hidden" name="description" value="Paying with Confidence with cha" />
     <input type="hidden" name="logo" value="https://chapa.link/asset/images/chapa_swirl.svg" />
     {/* <input type="hidden" name="callback_url" value="http://localhost:3000/" /> */}
-    <input type="hidden" name="return_url" value={homeUrl} />
+    {/* <input type="hidden" name="return_url" value={homeUrl} /> */}
     <input type="hidden" name="meta[title]" value="test" />
     <button type="submit">Pay Now</button>
 </form></div>

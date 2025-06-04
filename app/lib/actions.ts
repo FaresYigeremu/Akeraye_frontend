@@ -6,8 +6,8 @@ export async function handleRefresh() {
     console.log('handleRefresh');
 
     const refreshToken = await getRefreshToken();
-
-    const token = await fetch('http://localhost:8000/api/auth/token/refresh/', {
+    const apiHost = process.env.NEXT_PUBLIC_API_HOST;
+    const token = await fetch(`${apiHost}/api/auth/token/refresh/`, {
         method: 'POST',
         body: JSON.stringify({
             refresh: refreshToken
