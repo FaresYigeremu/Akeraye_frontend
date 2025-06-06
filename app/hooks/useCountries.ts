@@ -1,5 +1,5 @@
 const ethiopianCities = [
-    "Addis Ababa",
+    "A. Ababa",
     "Dire Dawa",
     "Mekelle",
     "Gondar",
